@@ -13,6 +13,7 @@ export class StudentController {
     getStudents(){
 
         return this.studentService.getStudents();
+        // nestjs
 
     }
 
