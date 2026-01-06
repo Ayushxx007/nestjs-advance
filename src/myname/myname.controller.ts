@@ -12,7 +12,7 @@ export class MynameController {
     nameFunc(@Body('name',new UppercasePipe()) name:string){
 
         return `return Value: ${name}`;
-        
+        //nestjs
 
     }
 
@@ -20,6 +20,7 @@ export class MynameController {
     nameFuncx(@Body(new UppercasePipe() ) body:{name:string,age?:string}){
 
         return `return Value: ${body.name}`;
+        
 
     }
 
