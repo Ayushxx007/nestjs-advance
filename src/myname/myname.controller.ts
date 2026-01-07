@@ -20,6 +20,7 @@ export class MynameController {
     nameFuncx(@Body(new UppercasePipe() ) body:{name:string,age?:string}){
 
         return `return Value: ${body.name}`;
+        //c
         
 
     }
